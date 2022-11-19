@@ -47,19 +47,19 @@ Under "**Application permissions**", search for "**User**", then select the "**U
 ![ApprovalEmail_Create_App_Registration_4](Images/ApprovalEmail_Create_App_Registration_4.png)
 
 In order for these permissions to be applied, admin consent must also be granted. Click the indicated "**Grant admin consent**" button on the "**API permissions**" page.
-![ApprovalEmail_Create_App_Registration_5_consent](Images/ApprovalEmail_Create_App_Registration_5_consent.png)
+![ApprovalEmail_Create_App_Registration_5_consent](Images/ApprovalEmail_Create_App_Registration_5.png)
 
 Navigate back to the "**Overview**" section on the menu and take note of the "**Application (client) ID**" and "**Directory (tenant) ID**, as each will be needed for the deployment of this playbook. Click "**Add a certificate or secret**".
 
-![ApprovalEmail_Create_App_Registration_5](Images/ApprovalEmail_Create_App_Registration_5.png)
+![ApprovalEmail_Create_App_Registration_6](Images/ApprovalEmail_Create_App_Registration_6.png)
 
 Click "**New client secret"**". After adding a description and selecting an expiration date, click "**Add**".
 
-![ApprovalEmail_Create_App_Registration_6](Images/ApprovalEmail_Create_App_Registration_6.png)
+![ApprovalEmail_Create_App_Registration_7](Images/ApprovalEmail_Create_App_Registration_7.png)
 
 Copy the generated "**Value**" and save it for the next step, [Create an Azure Key Vault Secret](https://github.com/Accelerynt-Security/AS-Incident-Response-Approval-Email#create-an-azure-key-vault-secret).
 
-![ApprovalEmail_Create_App_Registration_7](Images/ApprovalEmail_Create_App_Registration_7.png)
+![ApprovalEmail_Create_App_Registration_8](Images/ApprovalEmail_Create_App_Registration_8.png)
 
 
 #### Create an Azure Key Vault Secret:
