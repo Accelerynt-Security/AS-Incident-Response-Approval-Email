@@ -42,7 +42,7 @@ From the application menu blade, select "**API permissions**" and then click "**
 
 ![ApprovalEmail_Create_App_Registration_3](Images/ApprovalEmail_Create_App_Registration_3.png)
 
-Under "**Application permissions**", search for "**User**", then select the "**User.Read.All**" checkbox. Click "**Add permissions**".
+Under "**Application permissions**", search for "**User.Read.All**", then select the corresponding checkbox. Click "**Add permissions**".
 
 ![ApprovalEmail_Create_App_Registration_4](Images/ApprovalEmail_Create_App_Registration_4.png)
 
