@@ -23,6 +23,18 @@
                 "description": "Name of the Logic Apps resource to be created"
             }
         },
+        "AppRegistrationID": {
+            "type": "string",
+            "metadata" : {
+                "description" : "Application (client) ID of the App Registration"
+            }
+        },
+        "AppRegistrationTenant": {
+            "type": "string",
+            "metadata" : {
+                "description" : "Directory (tenant) ID of the App Registration"
+            }
+        },
         "KeyVaultName": {
             "type": "string",
             "metadata" : {
