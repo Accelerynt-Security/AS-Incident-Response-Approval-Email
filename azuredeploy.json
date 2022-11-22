@@ -160,7 +160,11 @@
                             }
                         },
                         "Entities_-_Get_Accounts": {
-                            "runAfter": {},
+                            "runAfter": {
+                                "Get_Secret": [
+                                    "Succeeded"
+                                ]
+                            },
                             "type": "ApiConnection",
                             "inputs": {
                                 "body": "@triggerBody()?['object']?['properties']?['relatedEntities']",
@@ -330,8 +334,8 @@
                                 }
                             },
                             "office365": {
-                                "connectionId": "[resourceId('Microsoft.Web/connections', variables('azuresentinel'))]",
-                                "connectionName": "[variables('azuresentinel')]",
+                                "connectionId": "[resourceId('Microsoft.Web/connections', variables('office365'))]",
+                                "connectionName": "[variables('office365')]",
                                 "id": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/office365')]"
                             }
                         }
