@@ -126,11 +126,11 @@ Click on the "**Edit**" button. This will bring us into the Logic Apps Designer.
 
 ![ApprovalEmail_Deploy_4](Images/ApprovalEmail_Deploy_4.png)
 
-The steps labeled "**Connections**" use connections created during the deployment of this playbook. Before the playbook can be run, these connections will either need to be authorized in the indicated steps, or existing authorized connections may be alternatively selected.  
+The step labeled "**Connections**" uses an Office365 connection created during the deployment of this playbook. Before the playbook can be run, this connection will either need to be authorized in the indicated step, or an existing authorized connection may be alternatively selected.
 
 ![ApprovalEmail_Deploy_5](Images/ApprovalEmail_Deploy_5.png)
 
-To validate the connections created for this playbook, expand the "**Connections**" step and click the exclamation point icon next to the name matching the playbook.
+To validate the connection, expand the "**Connections**" step and click the exclamation point icon next to the name matching the playbook.
                                                                                                 
 ![ApprovalEmail_Deploy_6](Images/ApprovalEmail_Deploy_6.png)
 
