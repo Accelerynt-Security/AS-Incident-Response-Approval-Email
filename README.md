@@ -136,10 +136,7 @@ To validate the connection, expand the "**Connections**" step and click the excl
 
 When prompted, sign in to validate the connection.                                                                                                
                                                                                                 
-![ApprovalEmail_Deploy_7](Images/ApprovalEmail_Deploy_7.png)                                                                                                                                                                                                                                                   
-Once all connection steps have been updated, click the "**Save**" button.
-
-![ApprovalEmail_Deploy_8](Images/ApprovalEmail_Deploy_8.png)  
+![ApprovalEmail_Deploy_7](Images/ApprovalEmail_Deploy_7.png)
 
 
 #
