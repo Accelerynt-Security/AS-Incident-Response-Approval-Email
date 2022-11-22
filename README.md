@@ -144,16 +144,18 @@ When prompted, sign in to validate the connection.
 
 Before the Logic App can run successfully, the Key Vault connection created during deployment must be granted access to the Key Vault storing your App Registration Secret.
 
-From the Key Vault "**Access policies**" page, click "**Add Access Policy**".
+From the Key Vault "**Access policies**" page, click "**Create**".
 
 ![ApprovalEmail_Access_1](Images/ApprovalEmail_Access_1.png)
 
-Select the "**Get**" checkbox in the "**Secret permissions**" list field. Then click the blue "**None selected**" text next to the "**Select principal**" field.
-
-Paste "**AS-Incident-Response-Approval-Email**" into the principal search box and click the option that appears. Click "**Select**" towards the bottom of the page.
+Select the "**Get**" checkbox in the "**Secret permissions**" section. Then click "**Next**".
 
 ![ApprovalEmail_Access_2](Images/ApprovalEmail_Access_2.png)
 
-Click "**Add**".
+From the "**Principal**" page, paste "**AS-Incident-Response-Approval-Email**" into the search box and click the option that appears. Click "**Next**".
 
 ![ApprovalEmail_Access_3](Images/ApprovalEmail_Access_3.png)
+
+Click "**Next**" in the application section. Then from the "**Review + create**" page, click "**Create**".
+
+![ApprovalEmail_Access_4](Images/ApprovalEmail_Access_4.png)
