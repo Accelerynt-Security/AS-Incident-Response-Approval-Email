@@ -154,7 +154,7 @@ Select the "**Get**" checkbox in the "**Secret permissions**" section. Then clic
 
 From the "**Principal**" page, paste "**AS-Incident-Response-Approval-Email**", or the alternative playbook name you used, into the search box and click the option that appears. Click "**Next**". 
 
-* Note that if the same names for the app registration and playbook are used, you will see two options here, which can be hard to differentiate. In this case, you would want to select the option whose ID does **not** match the app registration (client) ID.
+* Note that if the same name is used for the app registration and playbook, you will see two options here, which can be hard to differentiate. In this case, you would want to select the option whose ID does **not** match the app registration (client) ID.
 
 ![ApprovalEmail_Access_3](Images/ApprovalEmail_Access_3.png)
 
