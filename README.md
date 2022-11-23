@@ -34,7 +34,7 @@ From there, click "**New registration**".
 
 ![ApprovalEmail_Create_App_Registration_1](Images/ApprovalEmail_Create_App_Registration_1.png)
 
-Select a name for your App Registration, such as "**AS-Incident-Response-Approval-Email**", then click "**Register**".
+Select a name for your App Registration, such as "**AS-Incident-Response-Approval-Email-AR**", then click "**Register**".
 
 ![ApprovalEmail_Create_App_Registration_2](Images/ApprovalEmail_Create_App_Registration_2.png)
 
